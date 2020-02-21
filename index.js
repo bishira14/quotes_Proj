@@ -24,5 +24,5 @@ quotesButton.addEventListener('click', function(){
   let random = Math.floor(Math.random() * quotes.length);
 
   quoteText.innerHTML = quotes[random]["quote"];
-  quoteAuthor.innerHTML = quotes[random]["name"];
+  quoteAuthor.innerHTML = quotes[random]["name"]; 
 })
